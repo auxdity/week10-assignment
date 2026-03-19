@@ -30,8 +30,14 @@
 
 ### Task: Part D: Chat Persistence
 **Prompt:** "Now we want to have chats saved beyond a single session. Save everything as a separate JSON file and it should load in the next session."
- **AI Suggestion:** Saved each convo as a JSON file so whenever it's started up, all are read and restored using `active_chat_id`. Deleting a chat would remove the matching file.
+**AI Suggestion:** Saved each convo as a JSON file so whenever it's started up, all are read and restored using `active_chat_id`. Deleting a chat would remove the matching file.
 **My Modifications & Reflections:** No changes were necessary.
+ 
+### Task 2: Response Streaming (20 points)
+**Prompt:** "Display the model’s reply token-by-token as it is generated instead of waiting for the full response."
+**AI Suggestion:** Updated the app to stream replies live from the Hugging Face API using stream=True and Streamlit’s native chat display. Each chunk was rendered as it arrived, then the full response was saved to chat history, with a short delay added so the streaming effect was visible. 
+**My Modifications & Reflections:** No changes were necessary, it rendered in chunks correctly.
+
 
 ### Task 3: User Memory
 **Prompt:** "Store user preferences and some tidbits about them (pasted in)"
