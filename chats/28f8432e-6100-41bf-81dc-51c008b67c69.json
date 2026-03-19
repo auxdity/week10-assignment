@@ -1,0 +1,32 @@
+{
+  "id": "28f8432e-6100-41bf-81dc-51c008b67c69",
+  "title": "Hey it's Ara! I like hiking...",
+  "created_at": "2026-03-17T17:12:32",
+  "updated_at": "2026-03-17T17:14:09",
+  "messages": [
+    {
+      "role": "user",
+      "content": "Hey it's Ara! I like hiking and California history. Please keep your answers concise."
+    },
+    {
+      "role": "assistant",
+      "content": "Hi Ara. I'm happy to help you with your California history and hiking interests. What would you like to know about?"
+    },
+    {
+      "role": "user",
+      "content": "Universities and prestige"
+    },
+    {
+      "role": "assistant",
+      "content": "California is home to many prestigious universities, such as Stanford, UC Berkeley, and Caltech."
+    },
+    {
+      "role": "user",
+      "content": "i like school "
+    },
+    {
+      "role": "assistant",
+      "content": "It sounds like you're a fan of learning and education."
+    }
+  ]
+}
